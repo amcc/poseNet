@@ -65,7 +65,7 @@ function setup() {
 }
 
 function modelReady() {
-  select('#status').html('Model Loaded');
+  select('#status').html('');
 }
 
 function mouseDragged() {
