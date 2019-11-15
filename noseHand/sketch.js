@@ -17,7 +17,7 @@ let modelLoaded = false;
 function setup() {
   // fix for retina resolutions which scale in
   pixelDensity(1);
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(640, 480);
   graphics = createGraphics(width, height);
   graphics.clear();
 
